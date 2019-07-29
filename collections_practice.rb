@@ -17,5 +17,6 @@ end
 end
 
 def swap_elements(int)
-  int[1, 2] = int[2, 1]
+  int.sort do |a, b|
+  a[1] 
 end
