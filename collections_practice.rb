@@ -32,5 +32,5 @@ end
 end
 
 def find_a(string)
-  string.detects{|i| i.start_with?("a")}
+  string.selects{|i| i.start_with?("a")}
 end
