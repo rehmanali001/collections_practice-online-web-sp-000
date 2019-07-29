@@ -19,4 +19,3 @@ end
 def swap_elements(int)
   int[1, 2] = int[2, 1]
 end
-end
