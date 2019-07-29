@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(int)
   int.sort do |a, b|
-    
+    b <=>
 end
 
 def sort_array_char_count(int)
