@@ -19,6 +19,6 @@ end
 def swap_elements(int)
   int.sort do |a, b|
     if a > b
-      1
+      return 1
 end
 end
