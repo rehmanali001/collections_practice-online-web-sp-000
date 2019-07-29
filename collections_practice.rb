@@ -20,3 +20,4 @@ def swap_elements(int)
   int.sort do |a, b|
   a[1], b[2] = b[2], a[1]
 end
+end
