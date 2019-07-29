@@ -32,5 +32,5 @@ end
 end
 
 def find_a(string)
-  string.detects
+  string.detect
 end
