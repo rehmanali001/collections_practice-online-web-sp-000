@@ -33,5 +33,4 @@ end
 
 def find_a(string)
   string.find{|i| i.start_with?("a")}
-  return i
 end
