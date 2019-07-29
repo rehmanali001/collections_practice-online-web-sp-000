@@ -30,3 +30,7 @@ def kesha_maker(string)
   word[2] = "$"
 end
 end
+
+def find_a(string)
+  string.detects
+end
