@@ -20,3 +20,8 @@ def swap_elements(int)
     int[1], int[2] = int[2], int[1]
     int
 end
+
+def reverse_array(int)
+  int.sort do |a, b|
+    a.reverse <=> b.reverse
+end
