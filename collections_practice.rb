@@ -18,8 +18,6 @@ end
 
 def swap_elements(int)
   int.sort do |a, b|
-    if a > b
-      return 1
-end
+    a[1]
 end
 end
