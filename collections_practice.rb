@@ -34,5 +34,5 @@ end
 def find_a(string)
   array = []
   string.find{|i| i.start_with?("a")}
-  array << i
+  array << string[i]
 end
