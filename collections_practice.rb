@@ -18,4 +18,5 @@ end
 
 def swap_elements(int)
     int[1], int[2] = int[2], int[1]
+    omt
 end
