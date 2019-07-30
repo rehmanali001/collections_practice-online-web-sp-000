@@ -41,6 +41,6 @@ end
 
 def add_s(word)
   word.each do |line| 
-  line[0, 2, 3] << "s"
+  line[1] !<< "s"
 end
 end
