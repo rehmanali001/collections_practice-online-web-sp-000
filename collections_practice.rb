@@ -40,7 +40,6 @@ def sum_array(int)
 end
 
 def add_s(word)
-  word.each do |line|
-  return line + "s"
+  word.each do {|line| line + "s"}
 end
 end
