@@ -38,3 +38,8 @@ end
 def sum_array(int)
   int.inject(0) {|result, obj| result + obj}
 end
+
+def add_s(word)
+  word.each do |line|
+  line + "s"
+end
