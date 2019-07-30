@@ -40,7 +40,10 @@ def sum_array(int)
 end
 
 def add_s(word)
-  word.each do |line| 
-  line << "s"
-end
+  word.each_with_index.collect do |word, index|
+    if index == 1
+      word
+    else
+      word + "s"
+    end
 end
